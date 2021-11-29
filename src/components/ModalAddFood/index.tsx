@@ -13,11 +13,11 @@ interface ModalAddFoodProps {
 }
 
 interface AddFoodProps {
-	image?: string;
-	name?: string;
-	placeholder?: string;
-	price?: number;
-	description?: string;
+	image: string;
+	name: string;
+	placeholder: string;
+	price: number;
+	description: string;
 }
 
 export function ModalAddFood({

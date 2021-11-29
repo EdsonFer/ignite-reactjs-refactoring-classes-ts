@@ -17,11 +17,11 @@ interface Food {
 }
 
 interface FoodProps {
-	image?: string;
-	name?: string;
-	placeholder?: string;
-	price?: number;
-	description?: string;
+	image: string;
+	name: string;
+	placeholder: string;
+	price: number;
+	description: string;
 }
 
 interface ModalEditFoodProps {
