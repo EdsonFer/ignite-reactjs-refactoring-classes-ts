@@ -20,8 +20,7 @@ interface FoodProps {
 }
 
 export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
-	const { available } = food;
-	const [isAvailable, setIsAvailable] = useState(available);
+	const [isAvailable, setIsAvailable] = useState(food.available);
 
 	const toggleAvailable = async () => {
 		await api.put(`/foods/${food.id}`, {
